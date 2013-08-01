@@ -105,7 +105,6 @@ public class Main extends JFrame {
 				
 			}
 		});
-		//header.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createLineBorder(Color.gray), header.getBorder()));
 		
 		mainPanel.setHeader(header);
 		
@@ -114,9 +113,9 @@ public class Main extends JFrame {
 		
 		
 		contentPanel = new UsersPanel(this);
-		contentPanel.setMinimumSize(new Dimension(630, 450));
-		contentPanel.setPreferredSize(new Dimension(630, 450));
-		contentPanel.setMaximumSize(new Dimension(630,450));
+		contentPanel.setMinimumSize(new Dimension(630, 500));
+		contentPanel.setPreferredSize(new Dimension(630, 500));
+		contentPanel.setMaximumSize(new Dimension(630,500));
 		//contentPanel.setBackground(Color.WHITE);
 		//contentPanel.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10), contentPanel.getBorder()));
 				
@@ -212,7 +211,7 @@ public class Main extends JFrame {
 		footer = new JPanel();		
 		mainPanel.setFooter(footer);
 		footer.setMinimumSize(new Dimension(250, 10));
-		footer.setPreferredSize(new Dimension(400, 20));
+		footer.setPreferredSize(new Dimension(500, 20));
 		footer.setMaximumSize(new Dimension(Short.MAX_VALUE,20));
 		
 		
@@ -327,9 +326,9 @@ public class Main extends JFrame {
  		//main.setSize(800,600);
  		main.setLayout(new BorderLayout());
  		
- 		main.setMinimumSize(new Dimension(800,400));
- 		main.setPreferredSize(new Dimension(800,400));
- 		main.setMaximumSize(new Dimension(800,400));
+ 		main.setMinimumSize(new Dimension(1000,500));
+ 		main.setPreferredSize(new Dimension(1000,500));
+ 		main.setMaximumSize(new Dimension(1000,500));
  		
  		main.setLocation(midWidth, midHeight);
  		main.setResizable(false);
